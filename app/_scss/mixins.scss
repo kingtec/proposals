@@ -1,0 +1,89 @@
+// Mixins
+
+@mixin transition-all() {
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+@mixin background-cover() {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+@mixin serif() {
+	font-family: 'Lora', 'Times New Roman', serif;
+}
+
+@mixin sans-serif () {
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@mixin mpbutton($font: "Gotham", $font-size: 16px, $font-clr: #fff, $bg-clr:#65b7d2, $bd-clr: #389fc1) {
+
+   margin: 0 0 1.25rem;
+   position: relative;
+   text-align: center;
+   display: inline-block;
+   padding-bottom: 17px;
+   padding-left: 32px;
+   padding-right: 32px;
+   padding-top: 16px;
+   font-size: $font-size;
+   font-family: $font, Helvetica, sans-serif;
+   border-radius: 3px;
+   width: 100%;
+   border-width: 1px 1px 3px;
+   -webkit-box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+   -moz-box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+   box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+   background-color: $bg-clr;
+   border-style: solid;
+   border-color: $bd-clr;
+   color: $font-clr;
+
+   &:hover {
+      text-decoration: none!important;
+       background-color: #fff;
+       border-color: #f1f1f1;
+       color: #000;
+
+   }
+
+}
+
+@mixin bannergradient() {
+  background: #3f4c6b; /* Old browsers */
+  background: -moz-linear-gradient(left,  #3f4c6b 0%, #273b68 100%, #273b68 100%, #3f4c6b 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#3f4c6b), color-stop(100%,#273b68), color-stop(100%,#273b68), color-stop(100%,#3f4c6b)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  #3f4c6b 0%,#273b68 100%,#273b68 100%,#3f4c6b 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left,  #3f4c6b 0%,#273b68 100%,#273b68 100%,#3f4c6b 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left,  #3f4c6b 0%,#273b68 100%,#273b68 100%,#3f4c6b 100%); /* IE10+ */
+  background: linear-gradient(to right,  #3f4c6b 0%,#273b68 100%,#273b68 100%,#3f4c6b 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', endColorstr='#3f4c6b',GradientType=1 ); /* IE6-9 */
+ }
+
+@mixin graphpaper($bgcolor: #273b68) {
+  font-size: 93.8%;    
+  background-color: $bgcolor; 
+  background-image: 
+    -webkit-linear-gradient(0deg, transparent .05em, rgba(255,255,255,.03) .05em, rgba(255,255,255,.03) .125000em, transparent .125000em),
+    -webkit-linear-gradient(rgba(255,255,255,.03) .062500em, transparent .062500em);
+  background-image: 
+    -moz-linear-gradient(0deg, transparent .05em, rgba(255,255,255,.03) .05em, rgba(255,255,255,.03) .125000em, transparent .125000em),
+    -moz-linear-gradient(rgba(255,255,255,.03) .062500em, transparent .062500em);
+  background-image: 
+    -ms-linear-gradient(0deg, transparent .05em, rgba(255,255,255,.03) .05em, rgba(255,255,255,.03) .125000em, transparent .125000em),
+    -ms-linear-gradient(rgba(255,255,255,.03) .062500em, transparent .062500em);
+  background-image: 
+    -o-linear-gradient(0deg, transparent .05em, rgba(255,255,255,.03) .05em, rgba(255,255,255,.03) .125000em, transparent .125000em),
+    -o-linear-gradient(rgba(255,255,255,.03) .062500em, transparent .062500em);
+  background-image: 
+    linear-gradient(0deg, transparent .05em, rgba(255,255,255,.03) .05em, rgba(255,255,255,.03) .125000em, transparent .125000em),
+    inear-gradient(rgba(255,255,255,.03) .062500em, transparent .062500em);
+  background-size: .75em .75em;  
+  background-position: 0 -0.5em; 
+}
+

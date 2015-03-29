@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+
+
+    <body>
+
+    {% include nav.html %}
+
+      <div class="header horizontal-gradient">
+        <div class="container">
+          <h3>金特集团</h3>
+          <h4>何卡罗方案平台</h4>
+        </div>
+        <div class="news">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-8 news-col">
+              </div>
+              <div class="col-sm-4 search-col">
+                <div class="search-bar">
+        <span class="search-icon ionic"><i class="ion-ios7-search-strong"></i></span>
+        <input type="search" id="search-input" value="Search">
+      </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="content" class="container content-container">
+        {{ content }}
+      </div>
+
+    <!-- build:js(app) /js/scripts.js -->
+    <script src="/_bower_components/jquery/dist/jquery.js"></script>
+    <script src="/_bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+    <script src="/_bower_components/html2canvas/build/html2canvas.js"></script>
+    <script src="/_bower_components/jspdf/dist/jspdf.debug.js"></script>
+    <script src="/js/main.js"></script>
+    <!-- endbuild -->
+    <script>
+
+      $(window).load(function() {
+
+        // var pdf = new jsPDF('p','px','a4');
+        // pdf.addHTML(document.body);
+        // pdf.setFont('courier');
+        // pdf.setFontType("normal");
+        // $('#savePDF').click(function() {
+        //   console.log('YOLO');
+        //   pdf.save('test.pdf');
+        // });
+
+        var doc = new jsPDF();
+
+        // All units are in the set measurement for the document
+        // This can be changed to "pt" (points), "mm" (Default), "cm", "in"
+        doc.fromHTML($('#content').get(0), 15, 15, {
+          'width': 170
+        });
+
+
+        doc.setFont('courier');
+        doc.setFontType("normal");
+
+        $('#savePDF').click(function() {
+          doc.save('test.pdf');
+        });        
+
+
+
+      });
+
+
+
+    </script>
+    </body>
+</html>
