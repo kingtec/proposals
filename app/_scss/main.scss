@@ -214,12 +214,16 @@ nav {
     background: #d7e4ed;
   }
   .cd-date {
-      left: auto;
-      right: 110%;
       text-align: right;
-      position: absolute;
-      top: 1.5em;
       width: 100%;
+      position: absolute;
+      left: auto;
+      right: 107%;
+      top: 0;
+      @media (min-width: $screen-md-min) { 
+        right: 110%;
+        top: 1.5em;
+      }
   }
   .cd-timeline-content {
       position: relative;
