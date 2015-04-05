@@ -1,4 +1,6 @@
 @import '../_bower_components/bootstrap-sass/assets/stylesheets/bootstrap';
+// @import '../_bower_components/bootstrap-sass/assets/stylesheets/bootstrap';
+
 
 @import "variables.scss"; 
 @import "fonts.scss"; 
@@ -44,12 +46,10 @@ body {
   ul {
     margin: 0 0 1.5rem 0;
     list-style: circle;
-    // li {
-    //   font-size: 16px;
-    // }
   }
 
   ol {
+    margin: 0 0 1.5rem 0;
     list-style-type: cjk-ideographic;
     &.tab-contents {
       color: #00CD90;
@@ -236,7 +236,8 @@ header {
 .post {
   p {
     &:nth-child(1) {
-      font-size: 3em;
+      font-size: 2em;
+      // color: #666;
     }
   }
 }
