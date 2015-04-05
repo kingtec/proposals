@@ -28,28 +28,30 @@ categories: proposals
 	2. [公司IT组织机构重组更新活动预算]
 	3. [公司IT重组更新后预计年开支]
 5. [结论]
+{: .tab-contents}
 
 [金特集团IT形式]: #one
 [IT形式问题简介]: #one-one
-[IT形式问题解释图]: #one
-[硬件审核及更新方案]: #one
-[硬件审核结果]: #one
-[硬件组织结构重组方案]: #one
-[硬件操作系统更新方案]: #one
-[软件审核及更新方案]: #one
-[用友U8财务管理软件升级方案]: #one
-[OA流程审批系统升级方案]: #one
-[官网]: #one
-[预算]: #one
-[公司目前IT年开支]: #one
-[公司IT组织机构重组更新活动预算]: #one
-[公司IT重组更新后预计年开支]: #one
-[结论]: #one
+[IT形式问题解释图]: #one-two
+[硬件审核及更新方案]: #two
+[硬件审核结果]: #two-one
+[硬件组织结构重组方案]: #two-two
+[硬件操作系统更新方案]: #two-three
+[软件审核及更新方案]: #three
+[用友U8财务管理软件升级方案]: #three-one
+[OA流程审批系统升级方案]: #three-two
+[官网]: #three-three
+[预算]: #four
+[公司目前IT年开支]: #four-one
+[公司IT组织机构重组更新活动预算]: #four-two
+[公司IT重组更新后预计年开支]: #four-three
+[结论]: #five
 
 
 ---
 
-## 1. 金特集团IT形式
+## 一. 金特集团IT形式
+{: #one}
 
 我公司IT形式最大问题如下：
 
@@ -65,13 +67,17 @@ categories: proposals
 
 
 ### IT目前结构形式图
+{: #one-two}
+
 <img class="img-responsive" src="/img/金特IT情况.svg">
 
 ---
 
-## 2. 硬件审核及更新方案
+## 二. 硬件审核及更新方案
+{: #two}
 
-### 硬件审核结果
+### 1. 硬件审核结果
+{: #two-one}
 
 如上面的图所示，我公司在临汾路的办事处和浦东沈家弄的机房都有服务器。 这并不是最理想的情况，因为：
 
@@ -101,7 +107,8 @@ categories: proposals
 鉴于以上所述的论据反对公司内部服务器管理方式， 并且考虑到对外托管服务器硬件方式的费用之高，我建议第三种方案：**云服务器托管**
 
 
-### 硬件组织结构重组方案
+### 2. 硬件组织结构重组方案
+{: #two-two}
 
 #### 云服务器： 省钱 + 省麻烦
 
@@ -184,7 +191,9 @@ categories: proposals
 目前我公司的服务器全都装了Windows2003年服务器系统。这款系统不但很老，微软也已经宣布从2015年7月14日将停止对这款系统的支持。虽然这款系统到时候依然能够运行，但是失去了微软提供的安全更新，服务器就会成为黑客的靶子。 我公司最好采取升级系统的措施。
  -->
 
-### IT组织机构重组后结果
+### 3. IT组织机构重组后结果
+{: #two-three}
+
 
 若果我公司采取此报告所建议的措施，结果会是更简化，更为容易管理，营运成本更低的IT组织机构。预期结果可从以下图解中看出：
 
@@ -195,7 +204,8 @@ categories: proposals
 ---
 
 
-## 3. 软件审核及更新方案
+## 三. 软件审核及更新方案
+{: #three}
 
 <div class="table-responsive">
 	<table class="table table-hover table-bordered">
@@ -242,7 +252,8 @@ categories: proposals
 </div>
 
 
-### 用友U8平台升级
+### 1. 用友U8平台升级
+{: #three-one}
 
 目前我公司的财务服务器装了用友U8财务平台9.80版本，此版本于2008年上市，总算是比较老的版本。 
 此版有以下缺点：
@@ -263,9 +274,10 @@ categories: proposals
 
 目前为止已经向用友公司和另外一家财用友代理商询价 （目前还在求其他代理商报价）， 结果如下： 
 
-### 费用
+#### 费用
+{: #three-one-one}
 
-#### 用友官方报价
+##### 用友官方报价
 <div class="table-responsive">
 	<table class="table table-hover table-bordered">
 	  <thead>
@@ -349,9 +361,16 @@ categories: proposals
 	</table>
 </div>
 
+### 2. OA审批流程平台升级
+{: #three-two}
+
+### 3. 官网
+{: #three-three}
+
 ---
 
-## 4. 预算
+## 四. 预算
+{: #four}
 
 实行此计划会后一个不小的最初开销，而这个最初开销的最大成分为用友U8财务管理软件的升级费用（%90）。考虑到最初我公司购买的U8软件为2009年版本，可算此最初开销等于六年积累的费用，然而此报告错建议采取的结构性变化相对小 （整个预算的18%）。 
 
@@ -359,7 +378,8 @@ categories: proposals
 
 以下为我公司目前IT相关开支，实行计划的预算以及实行计划后的预计IT相关开支的细目表：
 
-### 公司目前IT年开支
+### 1. 公司目前IT年开支
+{: #four-one}
 
 每年我公司的IT营运成本为：
 
@@ -458,8 +478,8 @@ categories: proposals
 
 
 
-### 公司IT组织机构重组更新活动预算
-
+### 2. 公司IT组织机构重组更新活动预算
+{: #four-two}
 <!-- <div class="table-responsive">
 	<table class="table table-hover table-bordered">
 	  <thead>
@@ -554,7 +574,8 @@ categories: proposals
 </div>
 
 
-### 公司IT重组更新后预计每年营运成本
+### 3. 公司IT重组更新后预计每年营运成本
+{: #four-three}
 
 <div class="table-responsive">
 	<table class="table table-hover table-bordered">
@@ -609,6 +630,6 @@ categories: proposals
 
 ---
 
-## 5. 结论
-
+## 五. 结论
+{: #five}
 

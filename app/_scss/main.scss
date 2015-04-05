@@ -51,6 +51,9 @@ body {
 
   ol {
     list-style-type: cjk-ideographic;
+    &.tab-contents {
+      color: #00CD90;
+    }
   }
   
   li>ul, li>ol {
