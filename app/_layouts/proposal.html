@@ -3,17 +3,24 @@
   {% include head.html %}
 
 
-
     <body>
 
     {% include nav.html %}
 
-    {% include banner.html %}
+    <!-- {% include banner.html %} -->
+
+    {% include post-heading.html %}
 
 
-      <div id="content" class="container content-container">
-        {{ content }}
+    <div class="post">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+              {{ content }}
+          </div>
+        </div>
       </div>
+    </div>
 
     <!-- build:js(app) /js/scripts.js -->
     <script src="/_bower_components/jquery/dist/jquery.js"></script>

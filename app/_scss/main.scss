@@ -9,10 +9,11 @@ html {
 }
 
 body {
+  font-size: 1em;
   line-height: 1.5;
-  font-family: "Microsoft Yahei", Helvetica, sans-serif;
+  font-family: "Microsoft Yahei", "Hiragino Sans GB", Helvetica, sans-serif;
   p {
-    font-size: 18px;
+    // font-size: 18px;
     margin-bottom: 1.5rem;
     &.meta {
       color: #ccc;
@@ -22,14 +23,15 @@ body {
     color: #00CD90;
   }
   h1 {
-    font-family: "Microsoft Yahei", Helvetica, sans-serif;
+    font-family: "Microsoft Yahei", "Hiragino Sans GB", Helvetica, sans-serif;
     font-size: 2.25rem;
     margin: 0 0 1.5rem 0;
     color: $ktgreen-primary;
   }
   h2,h3,h4,h5,h6 {
+    color: #00CD99;
     margin: 0 0 1.5rem 0;
-    font-family: "Microsoft Yahei", Helvetica, sans-serif;
+    font-family: "Microsoft Yahei", "Hiragino Sans GB", Helvetica, sans-serif;
   }
   h2 {
     font-size: 1.75rem;
@@ -38,16 +40,28 @@ body {
     border-top: 5px solid rgba(0,100,100,0.05);
     margin: 0px 0px 70px 0px;
   }
+
   ul {
     margin: 0 0 1.5rem 0;
     list-style: circle;
-    li {
-      font-size: 16px;
-    }
+    // li {
+    //   font-size: 16px;
+    // }
   }
-  table {
+
+  ol {
+    list-style-type: cjk-ideographic;
+  }
+  
+  li>ul, li>ol {
+    margin-bottom: 0;
+    list-style-type: decimal;
+  }
+
+table {
     margin: 0 0 1.5rem 0!important;
     th {
+      font-weight: normal;
       text-align: center;    
     }
   }
@@ -107,6 +121,23 @@ nav {
 }
 .horizontal-gradient {
   background: $ktgreen-primary;
+}
+
+
+header {
+  &.heading {
+    overflow: hidden;
+    height: 400px;
+    margin-bottom: 50px;
+    background-color: #00CD99;
+    h1 {
+      color: white;
+      text-align: center;
+      font-size: 4em;
+      font-weight: 800;
+      margin-top: 150px;
+    }
+  }
 }
 
 
@@ -194,6 +225,20 @@ nav {
       margin-bottom: 40px;
   }
 }
+
+
+//post 
+
+
+.post {
+  p {
+    &:nth-child(1) {
+      font-size: 3em;
+    }
+  }
+}
+
+
 
 //timeline
 
