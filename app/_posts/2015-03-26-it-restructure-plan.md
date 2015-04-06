@@ -1,7 +1,8 @@
 ---
 layout: proposal
-title:  "金特集团IT改组方案"
-date:   2015-03-26 10:00:00
+title: "金特集团IT改组方案"
+date: 2015-03-26 10:00:00
+author: 何卡罗
 categories: proposals
 ---
 
@@ -22,7 +23,6 @@ categories: proposals
 3. [软件审核及更新方案]
 	1. [用友U8财务管理软件升级方案]
 	2. [OA流程审批系统升级方案]
-	3. [官网]
 4. [预算]
 	1. [公司目前IT年开支]
 	2. [公司IT组织机构重组更新活动预算]
@@ -40,7 +40,9 @@ categories: proposals
 [软件审核及更新方案]: #three
 [用友U8财务管理软件升级方案]: #three-one
 [OA流程审批系统升级方案]: #three-two
-[官网]: #three-three
+
+<!-- [官网]: #three-three -->
+
 [预算]: #four
 [公司目前IT年开支]: #four-one
 [公司IT组织机构重组更新活动预算]: #four-two
@@ -69,7 +71,8 @@ categories: proposals
 ### IT目前结构形式图
 {: #one-two}
 
-<img class="img-responsive" src="/img/金特IT情况.svg">
+<!-- <img class="img-responsive" src="/img/金特IT情况.svg"> -->
+![金特IT目前组织机构](/img/金特IT情况.svg){: .img-responsive}
 
 ---
 
@@ -120,11 +123,13 @@ categories: proposals
 
 阿里云Linux服务器（OA系统 + 公司网站） 
 
-<img class="img-responsive" src="/img/aliyun1.png">
+<!-- <img class="img-responsive" src="/img/aliyun1.png"> -->
+![金特IT目前组织机构](/img/aliyun1.png){: .img-responsive}
 
 阿里云Windows服务器（用友U8财务软件） 
 
-<img class="img-responsive" src="/img/aliyun2.png">
+<!-- <img class="img-responsive" src="/img/aliyun2.png"> -->
+![金特IT目前组织机构](/img/aliyun2.png){: .img-responsive}
 
 <!-- ### 硬件操作系统更新方案
 
@@ -197,8 +202,8 @@ categories: proposals
 
 若果我公司采取此报告所建议的措施，结果会是更简化，更为容易管理，营运成本更低的IT组织机构。预期结果可从以下图解中看出：
 
-<img class="img-responsive" src="/img/金特IT理想情况2.svg">
-
+<!-- <img class="img-responsive" src="/img/金特IT理想情况2.svg"> -->
+![金特IT目前组织机构](/img/金特IT理想情况2.svg){: .img-responsive}
 
 
 ---
@@ -364,9 +369,33 @@ categories: proposals
 ### 2. OA审批流程平台升级
 {: #three-two}
 
-### 3. 官网
-{: #three-three}
+新的OA审批流程平台已经开发好了。这个平台是一个在德国Camunda开放源代码的业务流程引擎的基础之上而编造的审批流程平台。 德国Camunda业务流程引擎由全世界各处的IT管理，软件工程师，以及业务流程等专家每天提供改进与新功能。 另外，Camunda业务流程引擎符合国际认可的业务流程标准BPMN 2.0。
 
+新的平台与以前的相比有以下优势：
+
+- 对最新的浏览器全面支持 （谷歌Chrome, 火狐，微软IE等浏览器）。
+- 对移动设备全面支持 （iPad, iPhone 等）。
+- 更简化， 更易用， 更现代的用户世面。
+- 任何业务流程的支持。
+- 易定制。
+- 对原编码完全控制。
+
+
+新的平台已经在云服务器上运行， 可到此网址查询并开始用：
+
+[http://120.26.74.78:8080/camunda/app/tasklist/default/#/login](http://120.26.74.78:8080/camunda/app/tasklist/default/#/login){: target="_BLANK"}
+
+以下为新平台的几张截图：
+
+![金特IT目前组织机构](/img/bpm1.png){: .img-responsive}
+
+![金特IT目前组织机构](/img/bpm2.png){: .img-responsive}
+
+![金特IT目前组织机构](/img/bpm3.png){: .img-responsive}
+
+<!-- ### 3. 官网
+{: #three-three}
+ -->
 ---
 
 ## 四. 预算
