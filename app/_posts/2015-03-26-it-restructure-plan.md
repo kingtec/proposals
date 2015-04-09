@@ -13,9 +13,9 @@ categories: proposals
 
 ## 目录
 
-1. [金特集团IT形式]
-	1. [IT形式问题简介]
-	2. [IT形式问题解释图]
+1. [金特集团IT系统组织机构形式]
+	1. [IT系统目前组织机构形式简与问题]
+	2. [IT系统目前组织机构问题解释图]
 2. [硬件审核及更新方案]
 	1. [硬件审核结果]
 	2. [硬件组织结构重组方案]
@@ -30,9 +30,9 @@ categories: proposals
 5. [履行与结论]
 {: .tab-contents}
 
-[金特集团IT形式]: #one
-[IT形式问题简介]: #one-one
-[IT形式问题解释图]: #one-two
+[金特集团IT系统组织机构形式]: #one
+[IT系统目前组织机构形式简与问题]: #one-one
+[IT系统目前组织机构问题解释图]: #one-two
 [硬件审核及更新方案]: #two
 [硬件审核结果]: #two-one
 [硬件组织结构重组方案]: #two-two
@@ -52,8 +52,11 @@ categories: proposals
 
 ---
 
-## 一. 金特集团IT形式
+## 一. 金特集团IT组织机构形式
 {: #one}
+
+### 1. IT系统目前组织机构形式简与问题
+{: #one-one}
 
 我公司IT形式最大问题如下：
 
@@ -68,7 +71,7 @@ categories: proposals
 这些问题对我公司的负效应可从以下图解中看出：
 
 
-### IT目前结构形式图
+### 2. IT系统目前组织机构问题解释图
 {: #one-two}
 
 <!-- <img class="img-responsive" src="/img/金特IT情况.svg"> -->
