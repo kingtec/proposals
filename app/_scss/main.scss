@@ -24,6 +24,7 @@ body {
   }
   a {
     color: #00CD90;
+    word-wrap: break-word;
   }
   h1 {
     font-family: "Microsoft Yahei", "Hiragino Sans GB", Helvetica, sans-serif;
@@ -131,7 +132,7 @@ nav {
 header {
   &.heading {
     overflow: hidden;
-    height: 400px;
+    min-height: 400px;
     margin-bottom: 50px;
     background-color: #00CD99;
     text-align: center;

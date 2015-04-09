@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: proposal
 title:  "谢总英文课程"
 date:   2015-03-27 13:33:00
+author: 何卡罗
 categories: proposals
 ---
 
