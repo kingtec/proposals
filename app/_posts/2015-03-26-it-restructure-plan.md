@@ -27,7 +27,7 @@ categories: proposals
 	1. [公司目前IT年开支]
 	2. [公司IT组织机构重组更新活动预算]
 	3. [公司IT重组更新后预计年开支]
-5. [结论]
+5. [履行与结论]
 {: .tab-contents}
 
 [金特集团IT形式]: #one
@@ -47,7 +47,7 @@ categories: proposals
 [公司目前IT年开支]: #four-one
 [公司IT组织机构重组更新活动预算]: #four-two
 [公司IT重组更新后预计年开支]: #four-three
-[结论]: #five
+[履行与结论]: #five
 
 
 ---
